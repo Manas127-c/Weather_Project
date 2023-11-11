@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div id="main">
+        <img src="https://images.unsplash.com/photo-1642447733831-2cdd9f5efae7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2NhdHRlcmVkJTIwY2xvdWR8ZW58MHx8MHx8fDA%3D" alt="">
+        <div id="search">
+            <input type="text" name="" id="city" placeholder="Enter a city name">
+            <button type="submit" class="ri-search-2-line"></button>
+        </div>
+        <div id="show">
+            <div class="elem" id="e1"><span class="logo"><i class="ri-sun-cloudy-line"></i></span>
+                <p id="temp">0°C</p><span id="we">scattered cloud</span>
+            </div>
+            <div class="elem" id="e2"><i class="ri-drop-fill"></i>
+                <div class="right">
+                    <p id="humidity">0%</p><span>humidity</span></div>
+            </div>
+            <div class="elem" id="e3"><i class="ri-windy-fill"></i>
+                <div class="right">
+                    <p id="wind">0%</p><span>Wind flow</span></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
